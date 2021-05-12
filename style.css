@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: 'Kurb'
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 10px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 30px;
+    border: 1px solid rgb(194, 194, 194);
+    background-color: rgb(240, 240, 240);
+}
+
+h1{
+    font-family: 'KoHo';
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+p{
+    width: 70%;
+    margin: 40px auto;
+    text-align: justify;
+    text-indent: 5%;
+    font-size: 20px;
+}
+
+.horizontal{
+    width: 40%;
+    margin: 20px auto;
+    display: block;
+}
+
+.vertical{
+    width: 25%;
+    margin: 20px auto;
+    display: block;
+}
+
+#active{
+    background-color: gainsboro;
+}
