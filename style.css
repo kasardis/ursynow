@@ -18,6 +18,7 @@ nav a{
     padding: 10px 30px;
     border: 1px solid rgb(194, 194, 194);
     background-color: rgb(240, 240, 240);
+    font-family: 'KoHo';
 }
 
 h1{
@@ -38,16 +39,25 @@ p{
 
 .horizontal{
     width: 40%;
-    margin: 20px auto;
+    margin: 0 auto;
     display: block;
 }
 
 .vertical{
     width: 25%;
-    margin: 20px auto;
+    margin: 0 auto;
     display: block;
 }
 
 #active{
     background-color: gainsboro;
+}
+
+figcaption{
+    font-family: 'KoHo';
+    font-size: 13px;
+}
+
+img{
+    margin-top: 20px !important;
 }
