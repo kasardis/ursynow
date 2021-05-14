@@ -9,6 +9,7 @@ nav{
     justify-content: center;
     width: 100%;
     top: 10px;
+    flex-wrap: wrap;
 }
 
 nav a{
@@ -72,4 +73,19 @@ img{
 
 .bottom{
     margin-bottom: 40px;
+}
+
+ul{
+    width: 50%;
+    margin: 40px auto;
+}
+
+li{
+    font-size: 20px;
+    list-style-type: circle;
+}
+
+iframe{
+    margin: 20px auto;
+    display: block;
 }
